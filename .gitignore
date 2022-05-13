@@ -1,0 +1,5 @@
+/vendor/
+/.idea/
+/.webpackcache/
+/node_modules/
+/public/

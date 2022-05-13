@@ -26,6 +26,7 @@ Encore
    */
   .enableStimulusBridge('./assets/controllers.json')
   .addEntry('sentry', './assets/sentry.ts')
+  .addEntry('bo-admin', './assets/back-office-admin.tsx')
   .addStyleEntry('css/email', [
     './node_modules/foundation-emails/dist/foundation-emails.min.css',
   ])
