@@ -1,0 +1,7 @@
+{
+    "name": "gamesh/api-platform-453",
+    "type": "project",
+    "require": {
+        "symfony/ux-turbo": "2.0.1"
+    }
+}

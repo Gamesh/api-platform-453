@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "removeComments": true,
+    "noEmit": false,
+    "jsx": "react",
+    "isolatedModules": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "lib": ["es5", "dom", "ES2020.Promise", "es2020"]
+  },
+  "exclude": [
+    "vendor",
+    "node_modules/",
+    "**/*.js",
+    "**/*.jsx",
+    "cypress"
+  ],
+  "include": [
+    "assets/*.ts",
+    "assets/*.tsx",
+    "assets/controllers/*.ts",
+    "assets/controllers/*.tsx",
+  ]
+}
